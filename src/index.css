@@ -1,0 +1,36 @@
+*{
+  padding: 0px;
+  margin: 0px;
+  font-family: "Roboto", sans-serif;
+}
+body{
+  overflow-x: hidden;
+}
+.btn1{
+  position: sticky;
+  bottom: 0;
+  left:0;
+  
+}
+@media(max-width:700px){
+  #link3{
+    display: none;
+  }
+  #link2{
+    display: block !important;
+  }
+  #banner{
+    background-color: white !important;
+    color:black !important;
+  }
+  .cardBox{
+    display: none !important;
+  }
+  .cardBox2{
+    display: block !important;
+  }
+  .btn1{
+    position: relative;
+    width:60% !important 
+  }
+}
